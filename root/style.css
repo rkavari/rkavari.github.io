@@ -1,8 +1,10 @@
+/* general site standards */
 * {
   background-color: #FBFAF8;
   font-family: 'Helvetica Neue', sans-serif;
 }
 
+/* logo positioning and styling */
 .logo {
   position: absolute;
   width: 460.4px;
@@ -14,6 +16,8 @@
   text-decoration: none;
   font-weight: 300;
 }
+
+/* start styling for div.navbar */
 
 div.navbar a {
   color: #5F5F5F;
@@ -60,7 +64,11 @@ div.navbar a.contact {
   padding-right: 30px;
   color: black;
 }
+/* end styling for div.navbar */
 
+/* start styling for home page */
+
+/* styling for hero message */
 #heroHeading {
   position: absolute;
   width: 478.48px;
@@ -72,6 +80,7 @@ div.navbar a.contact {
   color: #170A0A;
 }
 
+/* styling for hero message description */
 #heroDesc {
   position: absolute;
   width: 488.45px;
@@ -84,6 +93,7 @@ div.navbar a.contact {
   line-height: 36px;
 }
 
+/* styling for hero image */
 #heroImage {
   position: absolute;
   box-shadow: 0px 4px 20px 10px rgba(65, 63, 63, 0.15);
@@ -93,6 +103,7 @@ div.navbar a.contact {
   left: 690px;
   top: 205px;
 }
+
 
 .aboutText {
   position: absolute;
@@ -119,6 +130,9 @@ div.navbar a.contact {
   color: white;
 }
 
+/* start styling for product browsing page */
+
+/* styling for product browsing page title */
 .productsTitle {
   position: absolute;
   left: 64.99px;
@@ -130,6 +144,7 @@ div.navbar a.contact {
   color: #7472B6;
 }
 
+/* styling for dog harness container */
 .productDogHarness {
   position: absolute;
   width: 394.72px;
@@ -141,6 +156,7 @@ div.navbar a.contact {
   border-radius: 10px;
 }
 
+/* styling for dog harness photo */
 .dogHarnessPhoto {
   position: absolute;
   width: 315.26px;
@@ -149,6 +165,7 @@ div.navbar a.contact {
   top: 32px;
 }
 
+/* styling for dog harness product name */
 .dogHarnessName {
   position: absolute;
   left: 41px;
@@ -160,6 +177,7 @@ div.navbar a.contact {
   background: white;
 }
 
+/* styling for dog harness price */
 .dogHarnessPrice {
   position: absolute;
   right: 38.53px;
@@ -171,52 +189,62 @@ div.navbar a.contact {
   background: white;
 }
 
+/* styling for circles on products page */
 .circle {
   height: 33px;
   width: 33px;
   border-radius: 50%
 }
 
+/* color1 */
 .strawberry {
   background-color: #DC6868;
 }
 
+/* color2 */
 .blackBerry {
   background-color: #1D2361;
 }
 
+/* color3 */
 .crazyBerry {
   background-color: #595186;
 }
 
+/* color4 */
 .fireOrange {
   background-color: #DE8C2B;
 }
 
+/* first circle position for dog harness */
 #dogHarnessColors .strawberry {
   position: absolute;
   left: 41px;
   top: 455px;
 }
 
+/* second circle position for dog harness */
 #dogHarnessColors .blackBerry {
   position: absolute;
   left: 89.48px;
   top: 455px;
 }
 
+/* third circle position for dog harness */
 #dogHarnessColors .crazyBerry {
   position: absolute;
   left: 137.8px;
   top: 455px;
 }
 
+/* fourth circle position for dog harness */
 #dogHarnessColors .fireOrange {
   position: absolute;
   left: 188.74px;
   top: 455px;
 }
 
+/* styling for cat harness container */
 .productCatHarness {
   position: absolute;
   width: 394.72px;
@@ -228,6 +256,7 @@ div.navbar a.contact {
   border-radius: 10px;
 }
 
+/* styling for cat harness photo */
 .catHarnessPhoto {
   position: absolute;
   width: 315.26px;
@@ -236,6 +265,7 @@ div.navbar a.contact {
   top: 32px;
 }
 
+/* styling for cat harness product name */
 a.catHarnessName {
   text-decoration: none;
   color: #170A0A;
@@ -247,9 +277,10 @@ a.catHarnessName {
   font-size: 25px;
   line-height: 31px;
   background: white;
-  
+
 }
 
+/* styling for cat harness price */
 .catHarnessPrice {
   position: absolute;
   right: 38.53px;
@@ -261,30 +292,35 @@ a.catHarnessName {
   background: white;
 }
 
+/* first circle position for cat harness */
 #catHarnessColors .strawberry {
   position: absolute;
   left: 41px;
   top: 455px;
 }
 
+/* second circle position for cat harness */
 #catHarnessColors .blackBerry {
   position: absolute;
   left: 89.48px;
   top: 455px;
 }
 
+/* third circle position for cat harness */
 #catHarnessColors .crazyBerry {
   position: absolute;
   left: 137.8px;
   top: 455px;
 }
 
+/* fourth circle position for cat harness */
 #catHarnessColors .fireOrange {
   position: absolute;
   left: 188.74px;
   top: 455px;
 }
 
+/* styling for cat backpack container */
 .productBackpack {
   position: absolute;
   width: 394.72px;
@@ -296,6 +332,7 @@ a.catHarnessName {
   border-radius: 10px;
 }
 
+/* styling for cat backpack photo */
 .backpackPhoto {
   position: absolute;
   width: 315.26px;
@@ -304,6 +341,7 @@ a.catHarnessName {
   top: 32px;
 }
 
+/* styling for cat backpack product name */
 .backpackName {
   position: absolute;
   left: 41px;
@@ -315,6 +353,7 @@ a.catHarnessName {
   background: white;
 }
 
+/* styling for cat backpack container */
 .backpackPrice {
   position: absolute;
   right: 38.53px;
@@ -326,31 +365,35 @@ a.catHarnessName {
   background: white;
 }
 
+/* first circle position for cat backpack */
 #backpackColors .strawberry {
   position: absolute;
   left: 41px;
   top: 455px;
 }
 
+/* second circle position for cat backpack */
 #backpackColors .blackBerry {
   position: absolute;
   left: 89.48px;
   top: 455px;
 }
 
+/* third circle position for cat backpack */
 #backpackColors .crazyBerry {
   position: absolute;
   left: 137.8px;
   top: 455px;
 }
 
+/* fourth circle position for cat backpack */
 #backpackColors .fireOrange {
   position: absolute;
   left: 188.74px;
   top: 455px;
 }
 
-
+/* styling for gps tracker container */
 .productGps {
   position: absolute;
   width: 394.72px;
@@ -362,6 +405,7 @@ a.catHarnessName {
   border-radius: 10px;
 }
 
+/* styling for gps tracker collar photo */
 .gpsPhoto {
   position: absolute;
   width: 315.26px;
@@ -370,6 +414,7 @@ a.catHarnessName {
   top: 32px;
 }
 
+/* styling for gps tracker collar product name */
 .gpsName {
   position: absolute;
   left: 41px;
@@ -381,6 +426,7 @@ a.catHarnessName {
   background: white;
 }
 
+/* styling for gps tracker collar price */
 .gpsPrice {
   position: absolute;
   right: 38.53px;
@@ -392,30 +438,35 @@ a.catHarnessName {
   background: white;
 }
 
+/* first circle position for gps tracker collar */
 #gpsColors .strawberry {
   position: absolute;
   left: 41px;
   top: 455px;
 }
 
+/* second circle position for gps tracker collar */
 #gpsColors .blackBerry {
   position: absolute;
   left: 89.48px;
   top: 455px;
 }
 
+/* third circle position for gps tracker collar */
 #gpsColors .crazyBerry {
   position: absolute;
   left: 137.8px;
   top: 455px;
 }
 
+/* fourth circle position for gps tracker collar */
 #gpsColors .fireOrange {
   position: absolute;
   left: 188.74px;
   top: 455px;
 }
 
+/* styling for food storage attachment container */
 .productFood {
   position: absolute;
   width: 394.72px;
@@ -427,6 +478,7 @@ a.catHarnessName {
   border-radius: 10px;
 }
 
+/* styling for food storage attachment photo */
 .foodPhoto {
   position: absolute;
   width: 315.26px;
@@ -435,6 +487,7 @@ a.catHarnessName {
   top: 32px;
 }
 
+/* styling for food storage attachment product name */
 .foodName {
   position: absolute;
   left: 41px;
@@ -446,6 +499,7 @@ a.catHarnessName {
   background: white;
 }
 
+/* styling for food storage attachment price */
 .foodPrice {
   position: absolute;
   right: 38.53px;
@@ -457,30 +511,35 @@ a.catHarnessName {
   background: white;
 }
 
+/* first circle position for food storage attachment */
 #foodColors .strawberry {
   position: absolute;
   left: 41px;
   top: 455px;
 }
 
+/* second circle position for food storage attachment */
 #foodColors .blackBerry {
   position: absolute;
   left: 89.48px;
   top: 455px;
 }
 
+/* third circle position for food storage attachment */
 #foodColors .crazyBerry {
   position: absolute;
   left: 137.8px;
   top: 455px;
 }
 
+/* fourth circle position for food storage attachment */
 #foodColors .fireOrange {
   position: absolute;
   left: 188.74px;
   top: 455px;
 }
 
+/* styling for water storage attachment container */
 .productWater {
   position: absolute;
   width: 394.72px;
@@ -492,6 +551,7 @@ a.catHarnessName {
   border-radius: 10px;
 }
 
+/* styling for water storage attachment photo */
 .waterPhoto {
   position: absolute;
   width: 315.26px;
@@ -500,6 +560,7 @@ a.catHarnessName {
   top: 32px;
 }
 
+/* styling for water storage attachment product name */
 .waterName {
   position: absolute;
   left: 41px;
@@ -511,6 +572,7 @@ a.catHarnessName {
   background: white;
 }
 
+/* styling for water storage attachment price */
 .waterPrice {
   position: absolute;
   right: 38.53px;
@@ -522,30 +584,38 @@ a.catHarnessName {
   background: white;
 }
 
+/* first circle position for water storage attachment */
 #waterColors .strawberry {
   position: absolute;
   left: 41px;
   top: 455px;
 }
 
+/* second circle position for water storage attachment */
 #waterColors .blackBerry {
   position: absolute;
   left: 89.48px;
   top: 455px;
 }
 
+/* third circle position for water storage attachment */
 #waterColors .crazyBerry {
   position: absolute;
   left: 137.8px;
   top: 455px;
 }
 
+/* fourth circle position for water storage attachment */
 #waterColors .fireOrange {
   position: absolute;
   left: 188.74px;
   top: 455px;
 }
+/* end styling for product browsing page */
 
+/* start styling for product details page: cat harness */
+
+/* styling for product name */
 .chHeading {
   position: absolute;
   width: 213px;
@@ -559,6 +629,7 @@ a.catHarnessName {
   color: #170A0A;
 }
 
+/* styling for product price */
 .chCost {
   position: absolute;
   width: 41px;
@@ -572,6 +643,7 @@ a.catHarnessName {
   color: #000000;
 }
 
+/* styling for product description */
 .catHarnessDesc {
   position: absolute;
   width: 584.43px;
@@ -585,6 +657,7 @@ a.catHarnessName {
   color: #6C6C6C;
 }
 
+/* styling for product photo */
 .catHarnessDetailsPhoto {
   background: url(hlh1996-tpFf5y14gBI-unsplash.jpg);
   border-radius: 15px;
@@ -595,6 +668,7 @@ a.catHarnessName {
   top: 234.85px;
 }
 
+/* styling for size heading */
 .sizeHeading {
   position: absolute;
   width: 59px;
@@ -608,12 +682,14 @@ a.catHarnessName {
   color: #4B4B4A;
 }
 
+/* styling for circles on product details page */
 .circle2 {
   height: 40px;
   width: 40px;
   border-radius: 50%;
 }
 
+/* circle 1 position */
 .color .strawberry {
   position: absolute;
   width: 40px;
@@ -622,6 +698,7 @@ a.catHarnessName {
   top: 650.86px;
 }
 
+/* circle 2 position */
 .color .blackBerry {
   position: absolute;
   width: 40px;
@@ -630,6 +707,7 @@ a.catHarnessName {
   top: 650.86px;
 }
 
+/* circle 3 position */
 .color .crazyBerry {
   position: absolute;
   width: 40px;
@@ -638,6 +716,7 @@ a.catHarnessName {
   top: 650.86px; 
 }
 
+/* circle 4 position */
 .color .fireOrange {
   position: absolute;
   width: 40px;
@@ -646,6 +725,7 @@ a.catHarnessName {
   top: 650.86px;
 }
 
+/* circle 3 position */
 .colorHeading {
   position: absolute;
   width: 75px;
@@ -659,6 +739,7 @@ a.catHarnessName {
   color: #4B4B4A;
 }
 
+/* styling for size text (t, s, m, l) for size options */
 p.size {
   position: absolute;
   width: 19.21px;
@@ -672,6 +753,7 @@ p.size {
   color: #9E9E9E;
 }
 
+/* styling for tiny option */
 .tSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
@@ -683,6 +765,7 @@ p.size {
   top: 461.25px;
 }
 
+/* styling for small option */
 .sSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
@@ -694,6 +777,7 @@ p.size {
   top: 461.25px;
 }
 
+/* styling for medium option */
 .mSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
@@ -705,6 +789,7 @@ p.size {
   top: 461.25px;
 }
 
+/* styling for large option */
 .lSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
@@ -716,6 +801,7 @@ p.size {
   top: 461.25px;
 }
 
+/* styling for add to cart button */
 #chAddToCart {
   font-size: 36px;
   font-weight: 700;
@@ -730,6 +816,7 @@ p.size {
   color: white;
 }
 
+/* position for tiny option */
 div.tSizeContainer p.size {
   position: absolute;
   left: 16.18px;
@@ -737,6 +824,7 @@ div.tSizeContainer p.size {
   background: none;
 }
 
+/* position for small option */
 div.sSizeContainer p.size {
   position: absolute;
   left: 15.15px;
@@ -744,6 +832,7 @@ div.sSizeContainer p.size {
   background: none;
 }
 
+/* position for medium option */
 div.mSizeContainer p.size {
   position: absolute;
   left: 11.76px;
@@ -751,6 +840,7 @@ div.mSizeContainer p.size {
   background: none;
 }
 
+/* position for large option */
 div.lSizeContainer p.size {
   position: absolute;
   left: 15.85px;
@@ -758,6 +848,7 @@ div.lSizeContainer p.size {
   background: none;
 }
 
+/* styling for size guide button */
 .sizeGuide {
   position: absolute;
   width: 135.94px;
@@ -771,6 +862,7 @@ div.lSizeContainer p.size {
   color: #7472B6;
 }
 
+/* styling for products page on breadcrumb nav */
 a.bcProducts {
   position: absolute;
   text-decoration: none;
@@ -785,6 +877,7 @@ a.bcProducts {
   color: #6C6C6C;
 }
 
+/* styling for arrow on breadcrumb nav */
 .arrow1 {
   position: absolute;
   width: 15px;
@@ -798,6 +891,7 @@ a.bcProducts {
   color: #6C6C6C;
 }
 
+/* styling for cat harness page on breadcrumb nav */
 .bcCatHarness {
   position: absolute;
   width: 129px;
@@ -811,6 +905,7 @@ a.bcProducts {
   color: #6C6C6C;
 }
 
+/* styling for rectangular status indicator for home page just below nav bar */
 .homeStatus {
   position: absolute;
   width: 55px;
@@ -820,6 +915,7 @@ a.bcProducts {
   border: 4px solid #7472B6;
 }
 
+/* styling for rectangular status indicator for products page just below nav bar */
 .productStatus {
   position: absolute;
   width: 89px;
@@ -828,3 +924,5 @@ a.bcProducts {
   top: 90px;
   border: 4px solid #7472B6;
 }
+
+/* end styling for product details page: cat harness */
