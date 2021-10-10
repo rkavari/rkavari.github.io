@@ -6,9 +6,9 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <a class="logo" href="index.md"><i>Muddy Paws</i> <b>Adventure Gear</b></a>
+    <a class="logo" href="index.html"><i>Muddy Paws</i> <b>Adventure Gear</b></a>
 	<div class="navbar">
-		<a class="home" href="index.md">Home</a>
+		<a class="home" href="index.html">Home</a>
 		<a class="products" href="products.html">Products</a>
 		<a class="active about" href="about.html">About</a>
 		<a class="contact" href="contact.html">Contact</a>
