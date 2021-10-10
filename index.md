@@ -7,7 +7,7 @@
   <body>
 	<a class="logo" href="index.html"><i>Muddy Paws</i> <b>Adventure Gear</b></a>
 	<div class="navbar">
-		<a class="active home" href="index1.html">Home</a>
+		<a class="active home" href="index.html">Home</a>
 		<a class="products" href="products.html">Products</a>
 		<a class="about" href="about.html">About</a>
 		<a class="contact" href="contact.html">Contact</a>
