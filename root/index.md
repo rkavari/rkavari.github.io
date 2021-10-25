@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -5,14 +6,19 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
+	<!-- NavBar -->
 	<a class="logo" href="index.html"><i>Muddy Paws</i> <b>Adventure Gear</b></a>
 	<div class="navbar">
 		<a class="active home" href="index.html">Home</a>
 		<a class="products" href="products.html">Products</a>
 		<a class="about" href="about.html">About</a>
 		<a class="contact" href="contact.html">Contact</a>
+		<a class="cart" href="cart.html">Cart</a>
+		<p id="cartCount">0</p>
 	</div>
 	<div class=homeStatus></div>
+
+	<!-- Hero Section -->
     <h1 id="heroHeading">Get the best gear for<br>
 	your <b>best friend</b></h1>
 	<p id="heroDesc">We crafted top-quality products like<br> 
