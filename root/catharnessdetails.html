@@ -4,46 +4,58 @@
     <meta charset="utf-8" />
     <title>Products</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+    <script src="main.js"></script>
   </head>
   <body>
+    <!-- NavBar -->
     <a class="logo" href="index.html"><i>Muddy Paws</i> <b>Adventure Gear</b></a>
 	  <div class="navbar">
       <a class="home" href="index.html">Home</a>
       <a class="active products" href="products.html">Products</a>
       <a class="about" href="about.html">About</a>
       <a class="contact" href="contact.html">Contact</a>
+      <a class="cart" href="cart.html">Cart</a>
+      <p id="cartCount">0</p>
     </div>
     <div class=productStatus></div>
+
+    <!-- Breacrumb Menu -->
     <div class=breadcrumb1>
         <a href="products.html" class="bcProducts">Products</a>
         <p class="arrow1"> > </p>
         <p class="bcCatHarness">Cat Harness</p>
     </div>
+
+    <!-- Page Setup -->
     <h1 class="chHeading">Cat Harness</h1>
     <img src="photos/catharness.jpg" class="catHarnessDetailsPhoto" alt="">
     <p class="catHarnessDesc">This harness is so comfortable that your cat will want<br>to wear it all the time. Don’t believe us? Buy and see.</p>
+    <!-- Cost -->
     <p class="chCost">$25</p>
+    <!-- Size Selection -->
     <div class="size">
         <p class="sizeHeading">Size</p>
-        <div class="tSizeContainer">
+        <div id="tSizeContainer" onclick="selectTiny()">
             <p class="size">T</p>
         </div>
-        <div class="sSizeContainer">
+        <div id="sSizeContainer" onclick="selectSmall()">
             <p class="size">S</p>
         </div>
-        <div class="mSizeContainer">
+        <div id="mSizeContainer" onclick="selectMedium()">
             <p class="size">M</p>
         </div>
-        <div class="lSizeContainer">
+        <div id="lSizeContainer" onclick="selectLarge()">
             <p class="size">L</p>
         </div>
     </div>
     <p class="sizeGuide">View Size Guide</p>
+    <!-- Color Selection -->
     <div class="color">
         <p class="colorHeading">Color</p>
-        <div class="circle2 strawberry"></div>
-        <div class="circle2 blackBerry"></div>
-        <div class="circle2 crazyBerry"></div>
-        <div class="circle2 fireOrange"></div>
+        <div id="strawberryCircle" class="circle2 strawberry" onclick="selectStrawberry()"></div>
+        <div id="blackBerryCircle"class="circle2 blackBerry" onclick="selectBlackBerry()"></div>
+        <div id="crazyBerryCircle" class="circle2 crazyBerry" onclick="selectCrazyBerry()"></div>
+        <div id="fireOrangeCircle" class="circle2 fireOrange" onclick="selectFireOrange()"></div>
     </div>
-    <input type="button" id="chAddToCart" value="Add to Cart">
+    <!-- Add to Cart -->
+    <button id="chAddToCart" onclick="updateCart()">Add to Cart</button>
