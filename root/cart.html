@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cart</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+
+    <!-- NavBar -->
+    <a class="logo" href="index.html"><i>Muddy Paws</i> <b>Adventure Gear</b></a>
+	  <div class="navbar">
+      <a class="home" href="index.html">Home</a>
+      <a class="products" href="products.html">Products</a>
+      <a class="about" href="about.html">About</a>
+      <a class="contact" href="contact.html">Contact</a>
+      <a class="active cart" href="cart.html">Cart</a>
+      <p id="cartCount">0</p>
+    </div>
+    <div class=cartStatus></div>
+    <h1 class="cartTitle">Cart</h1>
+
+<!-- Cart Overview -->
+    <div class="cartContainer">
+      <img src="photos/catharness.jpg" id="chpCart" alt="Black labrador with a navy blue harness stands in the road in front of the legs of its owner.">
+      <p id="chnCart">Cat Harness</p>
+      <p id="chPriceCart">$25</p>
+      <div id="tscCart">
+        <p id="sizeCart">T</p>
+    </div>
+
+    <!-- Size Selection -->
+    <select name="size" id="sizeSelector">
+      <option value="tiny">Tiny</option>
+      <option value="small">Small</option>
+      <option value="medium">Medium</option>
+      <option value="large">Large</option>
+    </select>
+      <div class="colors" id="strawberrySelected">
+        <div class="circle strawberry"></div>
+      </div>
+
+      <!-- Color Selection -->
+      <select name="color" id="colorSelector">
+        <option value="strawberry">Strawberry</option>
+        <option value="blackberry">Blackberry</option>
+        <option value="crazyberry">Crazyberry</option>
+        <option value="fire orange">Fire Orange</option>
+      </select>
+    </div>
+
+<!-- Cost Overview -->
+    <div class="priceContainer">
+      <p id="merch" class="typeLabels">Merchandise Total</p>
+      <p id="del" class="typeLabels">Delivery</p>
+      <p id="est" class="typeLabels">Estimated Tax</p>
+      <p id="merchCost" class="costLabels">$25.00</p>
+      <p id="delCost" class="costLabels">$5.00</p>
+      <p id="estTaxCost" class="costLabels">$3.60</p>
+      <div class=breakdownDivider></div>
+      <p id="total" class="totalLabels">Total</p>
+      <p id="totalCost" class="totalLabels">$33.60</p>
+      <button id="checkout">Check Out</button>
+    </div>
+  </body>
+  <footer></footer>
+</html>
