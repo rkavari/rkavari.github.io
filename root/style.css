@@ -31,7 +31,7 @@ div.navbar a.home {
   position: absolute;
   width: 66px;
   height: 29px;
-  left: 926.73px;
+  left: 854.73px;
   top: 54.46px;
 }
 
@@ -39,7 +39,7 @@ div.navbar a.products {
   position: absolute;
   width: 94px;
   height: 29px;
-  left: 1021.31px;
+  left: 944.31px;
   top: 54.46px;
 }
 
@@ -47,7 +47,7 @@ div.navbar a.about {
   position: absolute;
   width: 63px;
   height: 29px;
-  left: 1143.9px;
+  left: 1065.9px;
   top: 54.46px;
 }
 
@@ -55,7 +55,15 @@ div.navbar a.contact {
   position: absolute;
   width: 83px;
   height: 29px;
-  left: 1235.48px;
+  left: 1150.48px;
+  top: 54.46px;  
+}
+
+div.navbar a.cart {
+  position: absolute;
+  width: 55px;
+  height: 29px;
+  left: 1250.48px;
   top: 54.46px;  
 }
 
@@ -125,7 +133,7 @@ div.navbar a.contact {
   left: 124px;
   top: 650px;
   background: #7472B6;
-  border-radius: 100px;
+  border-radius: 10px;
   border: none;
   color: white;
 }
@@ -624,7 +632,7 @@ a.catHarnessName {
   top: 204px;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 44px;
   color: #170A0A;
 }
@@ -638,7 +646,7 @@ a.catHarnessName {
   top: 214px;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
   color: #000000;
 }
@@ -652,14 +660,13 @@ a.catHarnessName {
   top: 265px;
   font-style: normal;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 29px;
   color: #6C6C6C;
 }
 
 /* styling for product photo */
 .catHarnessDetailsPhoto {
-  background: url(hlh1996-tpFf5y14gBI-unsplash.jpg);
   border-radius: 15px;
   position: absolute;
   width: 477.06px;
@@ -677,7 +684,7 @@ a.catHarnessName {
   top: 373.61px;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
   color: #4B4B4A;
 }
@@ -695,7 +702,7 @@ a.catHarnessName {
   width: 40px;
   height: 40px;
   left: 620.99px;
-  top: 650.86px;
+  top: 640.86px;
 }
 
 /* circle 2 position */
@@ -704,7 +711,7 @@ a.catHarnessName {
   width: 40px;
   height: 40px;
   left: 684.83px;
-  top: 650.86px;
+  top: 640.86px;
 }
 
 /* circle 3 position */
@@ -713,7 +720,7 @@ a.catHarnessName {
   width: 40px;
   height: 40px;
   left: 748.67px;
-  top: 650.86px; 
+  top: 640.86px; 
 }
 
 /* circle 4 position */
@@ -722,10 +729,10 @@ a.catHarnessName {
   width: 40px;
   height: 40px;
   left: 812.51px;
-  top: 650.86px;
+  top: 640.86px;
 }
 
-/* circle 3 position */
+/* color heading */
 .colorHeading {
   position: absolute;
   width: 75px;
@@ -734,7 +741,7 @@ a.catHarnessName {
   top: 568.33px;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 37px;
   color: #4B4B4A;
 }
@@ -744,107 +751,107 @@ p.size {
   position: absolute;
   width: 19.21px;
   height: 38.42px;
-  left: 636.39px;
-  top: 447.04px;
+  left: 656.39px;
+  top: 477.04px;
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 20px;
   line-height: 37px;
-  color: #9E9E9E;
+  color: #6C6C6C;
 }
 
 /* styling for tiny option */
-.tSizeContainer {
+#tSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
   border-radius: 7px;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   left: 620.07px;
-  top: 461.25px;
+  top: 451.25px;
 }
 
 /* styling for small option */
-.sSizeContainer {
+#sSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
   border-radius: 7px;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   left: 691.6px;
-  top: 461.25px;
+  top: 451.25px;
 }
 
 /* styling for medium option */
-.mSizeContainer {
+#mSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
   border-radius: 7px;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   left: 763.13px;
-  top: 461.25px;
+  top: 451.25px;
 }
 
 /* styling for large option */
-.lSizeContainer {
+#lSizeContainer {
   background: #EAEAEA;
   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
   border-radius: 7px;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   left: 834.66px;
-  top: 461.25px;
+  top: 451.25px;
 }
 
 /* styling for add to cart button */
 #chAddToCart {
-  font-size: 36px;
+  font-size: 25px;
   font-weight: 700;
   position: absolute;
-  width: 301.84px;
-  height: 82.96px;
-  left: 613.63px;
+  width: 250.84px;
+  height: 60.96px;
+  left: 623.63px;
   top: 738.27px;
   background: #7472B6;
-  border-radius: 100px;
+  border-radius: 10px;
   border: none;
   color: white;
 }
 
 /* position for tiny option */
-div.tSizeContainer p.size {
+div#tSizeContainer p.size {
   position: absolute;
-  left: 16.18px;
-  top: -23px;
+  left: 14.18px;
+  top: -18px;
   background: none;
 }
 
 /* position for small option */
-div.sSizeContainer p.size {
+div#sSizeContainer p.size {
   position: absolute;
-  left: 15.15px;
-  top: -23px;
+  left: 14.15px;
+  top: -18px;
   background: none;
 }
 
 /* position for medium option */
-div.mSizeContainer p.size {
+div#mSizeContainer p.size {
   position: absolute;
   left: 11.76px;
-  top: -23px;
+  top: -18px;
   background: none;
 }
 
 /* position for large option */
-div.lSizeContainer p.size {
+div#lSizeContainer p.size {
   position: absolute;
-  left: 15.85px;
-  top: -23px;
+  left: 14.85px;
+  top: -18px;
   background: none;
 }
 
@@ -854,7 +861,7 @@ div.lSizeContainer p.size {
   width: 135.94px;
   height: 18.93px;
   left: 620.07px;
-  top: 513px;
+  top: 503px;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -910,7 +917,7 @@ a.bcProducts {
   position: absolute;
   width: 55px;
   height: 0px;
-  left: 929.47px;
+  left: 856.47px;
   top: 90px;
   border: 4px solid #7472B6;
 }
@@ -920,9 +927,301 @@ a.bcProducts {
   position: absolute;
   width: 89px;
   height: 0px;
-  left: 1023.67px;
+  left: 947px;
+  top: 90px;
+  border: 4px solid #7472B6;
+}
+
+/* styling for rectangular status indicator for cart page just below nav bar */
+.cartStatus {
+  position: absolute;
+  width: 41px;
+  height: 0px;
+  left: 1250px;
   top: 90px;
   border: 4px solid #7472B6;
 }
 
 /* end styling for product details page: cat harness */
+
+/* start styling for cart page */
+
+/* styling for page title: cart */
+.cartTitle {
+  position: absolute;
+  left: 64.99px;
+  top: 128.76px;
+  font-family: Helvetica Neue;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: #7472B6;
+}
+
+/* styling for count for cart page */
+#count {
+  background: #EAEAEA;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  position: absolute;
+  width: 70px;
+  height: 40px;
+  left: 603.63px;
+  top: 738.27px;
+}
+
+#cartCount {
+  position: absolute;
+  color: #FBFAF8;
+  top: 30px;
+  left: 1300.63px;
+}
+
+/* styling for products (within cart) container */
+.cartContainer {
+  position: absolute;
+  width: 920px;
+  height: 342px;
+  top: 334px;
+  left: 68.99px;
+  border-radius: 15px;
+  background: #FFFFFF;
+  border: 0.25px solid rgba(201, 200, 200, 0.7);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.07);
+}
+
+/* styling for product image */
+#chpCart {
+  position: absolute;
+  width: 210.47px;
+  height: 256.51px;
+  left: 38.84px;
+  top: 39.55px;
+  border-radius: 15px;
+}
+
+/* styling for product name */
+#chnCart {
+  position: absolute;
+  width: 206px;
+  height: 44px;
+  left: 300.76px;
+  top: 12.55px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  color: #170A0A;
+  background: none
+  ;
+}
+
+/* styling for product cost */
+#chPriceCart {
+  position: absolute;
+  width: 92px;
+  height: 36px;
+  left: 840.95px;
+  top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 36px;
+  color: #170A0A;
+  background: none;
+}
+
+/* styling for overall cost container */
+.priceContainer {
+  color: #170A0A; 
+  position: absolute;
+  width: 339px;
+  height: 342px;
+  top: 334px;
+  left: 1028.99px;
+  border-radius: 15px;
+  background: #FFFFFF;
+  border: 0.25px solid rgba(201, 200, 200, 0.7);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.07);
+}
+
+/* styling for type of cost text */
+.typeLabels {
+  background-color: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  color: #170A0A;
+}
+
+/* styling for actual cost of type text */
+.costLabels {
+  background-color: none;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 24px;
+  color: #170A0A;
+}
+
+/* styling for total cost text */
+.totalLabels {
+  background-color: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #170A0A;
+}
+
+/* styling for selected color */
+#strawberrySelected {
+  position: absolute;
+  left: 32.5%;
+  right: 70.85%;
+  top: 60.55%;
+  bottom: 33.6%;
+}
+
+/* styling for selected size */
+#tscCart {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 298.76px;
+  top: 125px;
+  background: #B6B6B6;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+#sizeCart {
+  position: absolute;
+  left: 17.3px;
+  top: -22.8px; 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  color: #6C6C6C;
+  background: none;
+}
+
+/* positioning for size dropdown */
+#sizeSelector {
+  position: absolute;
+  left: 380px;
+  top: 140.8px; 
+}
+
+/* positioning for color dropdown */
+#colorSelector {
+  position: absolute;
+  left: 380px;
+  top: 210.8px; 
+}
+
+/* positioning for merchandise type text */
+#merch {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 36.33px;
+  top: 19.45px;
+}
+
+/* positioning for delivery type text */
+#del {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 36.33px;
+  top: 67.45px;
+}
+
+/* positioning for estimated tax type text */
+#est {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 36.33px;
+  top: 114.45px;
+}
+
+/* positioning for cost of merchandise text */
+#merchCost {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 241.33px;
+  top: 19.45px;
+}
+
+/* positioning for cost of delivery text */
+#delCost {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 253.33px;
+  top: 67.45px;
+}
+
+/* positioning for cost of est tax text */
+#estTaxCost {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 253.33px;
+  top: 114.45px;
+}
+
+/* positioning for total type text */
+#total {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 36.33px;
+  top: 190.45px;
+}
+
+/* positioning for cost of total text */
+#totalCost {
+  background: none;
+  position: absolute;
+  width: 164px;
+  height: 24px;
+  left: 232.33px;
+  top: 190.45px;
+}
+
+/* styling for divider */
+.breakdownDivider {
+  position: absolute;
+  width: 267px;
+  height: -5px;
+  left: 36.33px;
+  top: 190px;
+  border: 1px solid #858585;
+}
+
+/* styling for checkout button */
+#checkout {
+  font-size: 25px;
+  font-weight: 700;
+  position: absolute;
+  width: 272.84px;
+  height: 50.96px;
+  left: 36.33px;
+  top: 270.27px;
+  background: #7472B6;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
